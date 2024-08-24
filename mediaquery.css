@@ -4,17 +4,19 @@
     }
     .textbox{
         height: 580px;
-        width: 370px;
-        margin-right: 13px;
+        width: 340px;
+        margin-right: 10px;
     }
     .textbox1{
         height: 500px;
-        width: 369px;
+        width: 339px;
     }
     .textbox2{
-        width: 369px;
+        width: 339px;
     }
     .textbox2 input{
-        width: 290px;
+        width: 263px;
+        font-size: 15px;
+        padding-left: 8px;
     }
 }
