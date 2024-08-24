@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.center{
+    border: 1px solid;
+    height: 100vh;
+    background-image: url(hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.textbox{
+    border: 1px solid;
+    height: 700px;
+    width: 750px;
+    margin-right: 80px;
+    /* border-radius: 10px; */
+    box-shadow: 5px 5px 5px 5px rgb(196, 193, 193);
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    /* box-shadow: 0 0 30px rgba(0, 0, 0, .5); */
+}
+.textbox1{
+    /* border: 1px solid; */
+    height: 620px;
+    width: 749px;
+    display: flex;
+    align-items: end;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+.questionanswer{
+    width: 749px;
+}
+.question{
+    text-align: end;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.answer{
+    font-size: 25px;
+}
+.textbox2{
+    border-top: 1px solid;
+    height: 78px;
+    width: 749px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.textbox2 input{
+    width: 650px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 17px;
+    padding-left: 20px;
+    border: none;
+    outline: none;
+}
+.textarea{
+    border: 1px solid;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+}
+.mic{
+    font-size: 25px;
+    border: 2px solid;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.651);
+}
+.mic:hover{
+    color: black;
+}

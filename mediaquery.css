@@ -1,0 +1,20 @@
+@media only screen and (max-width:400px) {
+    .center{
+        background-size: cover;
+    }
+    .textbox{
+        height: 580px;
+        width: 370px;
+        margin-right: 13px;
+    }
+    .textbox1{
+        height: 500px;
+        width: 369px;
+    }
+    .textbox2{
+        width: 369px;
+    }
+    .textbox2 input{
+        width: 290px;
+    }
+}
